@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: #fff;
+}
+
+p {
+    font-size: 25px;
+    color: #1b1b1b;
+    position: absolute;
+    user-select: none;
+    opacity: 0;
+}
+
+$value: 1;
+
+@for $i from 1 through 23 {
+    p:nth-of-type(#{$i}) {
+        top: #{random(90)}vh;
+        left: #{random(90)}vw;
+        animation: blink .35s linear;
+        animation-delay: #{$value}s;
+    }
+
+    $value: $value+random(4);
+}
+
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
+}
