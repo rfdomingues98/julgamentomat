@@ -5,7 +5,7 @@ body {
 
 p {
     font-size: 25px;
-    color: #1b1b1b;
+    color: #fff;
     position: absolute;
     user-select: none;
     opacity: 0;
@@ -17,11 +17,11 @@ $value: 1;
     p:nth-of-type(#{$i}) {
         top: #{random(90)}vh;
         left: #{random(90)}vw;
-        animation: blink .35s linear;
+        animation: blink .5s linear;
         animation-delay: #{$value}s;
     }
 
-    $value: $value+random(4);
+    $value: $value+random(2);
 }
 
 @keyframes blink {

@@ -5,7 +5,7 @@ body {
 
 p {
   font-size: 25px;
-  color: #1b1b1b;
+  color: #fff;
   position: absolute;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -15,210 +15,210 @@ p {
 }
 
 p:nth-of-type(1) {
-  top: 15vh;
-  left: 29vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
+  top: 33vh;
+  left: 62vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
 p:nth-of-type(2) {
-  top: 69vh;
+  top: 68vh;
   left: 23vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+p:nth-of-type(3) {
+  top: 61vh;
+  left: 86vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+p:nth-of-type(4) {
+  top: 9vh;
+  left: 12vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
 }
 
-p:nth-of-type(3) {
-  top: 36vh;
-  left: 76vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
+p:nth-of-type(5) {
+  top: 82vh;
+  left: 69vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
 }
 
-p:nth-of-type(4) {
-  top: 12vh;
-  left: 25vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 9s;
-          animation-delay: 9s;
+p:nth-of-type(6) {
+  top: 66vh;
+  left: 73vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
-p:nth-of-type(5) {
-  top: 19vh;
-  left: 82vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
+p:nth-of-type(7) {
+  top: 34vh;
+  left: 33vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+p:nth-of-type(8) {
+  top: 55vh;
+  left: 16vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+p:nth-of-type(9) {
+  top: 90vh;
+  left: 18vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
   -webkit-animation-delay: 11s;
           animation-delay: 11s;
 }
 
-p:nth-of-type(6) {
-  top: 6vh;
-  left: 5vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
+p:nth-of-type(10) {
+  top: 14vh;
+  left: 6vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
   -webkit-animation-delay: 12s;
           animation-delay: 12s;
 }
 
-p:nth-of-type(7) {
-  top: 43vh;
-  left: 50vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
+p:nth-of-type(11) {
+  top: 77vh;
+  left: 87vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+}
+
+p:nth-of-type(12) {
+  top: 17vh;
+  left: 68vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
   -webkit-animation-delay: 16s;
           animation-delay: 16s;
 }
 
-p:nth-of-type(8) {
-  top: 47vh;
-  left: 17vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
+p:nth-of-type(13) {
+  top: 81vh;
+  left: 55vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
   -webkit-animation-delay: 18s;
           animation-delay: 18s;
 }
 
-p:nth-of-type(9) {
-  top: 10vh;
-  left: 30vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
+p:nth-of-type(14) {
+  top: 5vh;
+  left: 21vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+}
+
+p:nth-of-type(15) {
+  top: 31vh;
+  left: 52vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
   -webkit-animation-delay: 21s;
           animation-delay: 21s;
 }
 
-p:nth-of-type(10) {
-  top: 29vh;
-  left: 49vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 22s;
-          animation-delay: 22s;
+p:nth-of-type(16) {
+  top: 55vh;
+  left: 32vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 23s;
+          animation-delay: 23s;
 }
 
-p:nth-of-type(11) {
-  top: 17vh;
-  left: 57vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
+p:nth-of-type(17) {
+  top: 29vh;
+  left: 51vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 25s;
+          animation-delay: 25s;
+}
+
+p:nth-of-type(18) {
+  top: 34vh;
+  left: 10vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
   -webkit-animation-delay: 26s;
           animation-delay: 26s;
 }
 
-p:nth-of-type(12) {
-  top: 40vh;
-  left: 87vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
+p:nth-of-type(19) {
+  top: 69vh;
+  left: 34vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 27s;
+          animation-delay: 27s;
+}
+
+p:nth-of-type(20) {
+  top: 49vh;
+  left: 71vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
+}
+
+p:nth-of-type(21) {
+  top: 27vh;
+  left: 47vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
   -webkit-animation-delay: 30s;
           animation-delay: 30s;
 }
 
-p:nth-of-type(13) {
-  top: 22vh;
-  left: 85vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 33s;
-          animation-delay: 33s;
-}
-
-p:nth-of-type(14) {
-  top: 63vh;
-  left: 54vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 35s;
-          animation-delay: 35s;
-}
-
-p:nth-of-type(15) {
-  top: 62vh;
-  left: 51vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 39s;
-          animation-delay: 39s;
-}
-
-p:nth-of-type(16) {
-  top: 86vh;
-  left: 35vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 43s;
-          animation-delay: 43s;
-}
-
-p:nth-of-type(17) {
-  top: 70vh;
-  left: 10vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 47s;
-          animation-delay: 47s;
-}
-
-p:nth-of-type(18) {
-  top: 13vh;
-  left: 84vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 50s;
-          animation-delay: 50s;
-}
-
-p:nth-of-type(19) {
-  top: 13vh;
-  left: 86vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 52s;
-          animation-delay: 52s;
-}
-
-p:nth-of-type(20) {
-  top: 76vh;
-  left: 61vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 53s;
-          animation-delay: 53s;
-}
-
-p:nth-of-type(21) {
-  top: 57vh;
-  left: 59vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 54s;
-          animation-delay: 54s;
-}
-
 p:nth-of-type(22) {
-  top: 23vh;
-  left: 15vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 56s;
-          animation-delay: 56s;
+  top: 27vh;
+  left: 66vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 31s;
+          animation-delay: 31s;
 }
 
 p:nth-of-type(23) {
-  top: 47vh;
-  left: 58vw;
-  -webkit-animation: blink .35s linear;
-          animation: blink .35s linear;
-  -webkit-animation-delay: 57s;
-          animation-delay: 57s;
+  top: 82vh;
+  left: 78vw;
+  -webkit-animation: blink .5s linear;
+          animation: blink .5s linear;
+  -webkit-animation-delay: 33s;
+          animation-delay: 33s;
 }
 
 @-webkit-keyframes blink {
