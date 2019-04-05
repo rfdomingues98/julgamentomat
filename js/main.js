@@ -2,7 +2,7 @@ var audio = document.querySelector("#audio");
 
 audio.addEventListener("ended", function () {
     //rot47
-    var x = prompt('"F2= é 2 D6BFê?4:2 56 ?ú>6C@Dn W4252 6=6>6?E@ D6A2C25@ A@C 6DA2ç@DX');
+    var x = prompt('"F2= 6 2 D6BF6?4:2 56 ?F>6C@Dn W4252 6=6>6?E@ D6A2C25@ A@C 6DA24@DX');
     var coordinates = "40.7143528, -74.0059731";
     if (binary2text(x) == coordinates) {
         alert("Success!");
