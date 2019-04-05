@@ -1,26 +1,21 @@
-window.addEventListener('load', () => {
-    // noinspection JSUnresolvedVariable
-    let audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    let xhr = new XMLHttpRequest();
-    xhr.open('GET', '../AudioPlaceholder.mp3');
-    xhr.responseType = 'arraybuffer';
-    xhr.addEventListener('load', () => {
-        let playsound = (audioBuffer) => {
-            let source = audioCtx.createBufferSource();
-            source.buffer = audioBuffer;
-            source.connect(audioCtx.destination);
-            source.loop = false;
-            source.start();
+var audio = document.querySelector("#audio");
 
-            setTimeout(function () {
-                let t = document.createElement('p');
-                t.appendChild(document.createTextNode((new Date()).toLocaleString() + ': Sound played'));
-                document.querySelector('.output').appendChild(t);
-                playsound(audioBuffer);
-            }, 1000 + Math.random() * 2500);
-        };
-
-        audioCtx.decodeAudioData(xhr.response).then(playsound);
-    });
-    xhr.send();
+audio.addEventListener("ended", function () {
+    //rot47
+    var x = prompt('"F2= é 2 D6BFê?4:2 56 ?ú>6C@Dn W4252 6=6>6?E@ D6A2C25@ A@C 6DA2ç@DX');
+    var coordinates = "40.7143528, -74.0059731";
+    if (binary2text(x) == coordinates) {
+        alert("Success!");
+    }
 });
+
+function binary2text(str) {
+    str = str.replace(/\s+/g, '');
+    str = str.match(/.{1,8}/g).join(" ");
+    var newBinary = str.split(" ");
+    var binaryCode = [];
+    for (i = 0; i < newBinary.length; i++) {
+        binaryCode.push(String.fromCharCode(parseInt(newBinary[i], 2)));
+    }
+    return binaryCode.join("");
+}
