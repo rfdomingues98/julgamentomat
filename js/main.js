@@ -6,6 +6,8 @@ audio.addEventListener("ended", function () {
     var coordinates = "40.7143528, -74.0059731";
     if (binary2text(x) == coordinates) {
         alert("Success!");
+    } else {
+        alert("Invalid answer!");
     }
 });
 
