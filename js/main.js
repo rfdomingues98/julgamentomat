@@ -21,8 +21,8 @@ audio.addEventListener("ended", function () {
             alert("Invalid answer!");
             x = prompt('"F2= 6 2 D6BF6?4:2 56 ?F>6C@Dn W4252 6=6>6?E@ D6A2C25@ A@C 6DA24@DX');
         } while (binary2text(x) != coordinates);
+        alert("Success!");
     }
-    alert("Success!");
 });
 
 function binary2text(str) {
