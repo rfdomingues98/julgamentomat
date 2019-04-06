@@ -52,3 +52,17 @@ var isMobile = {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
+
+document.onmousedown = disableclick;
+status = "Right Click Disabled";
+function disableclick(event) {
+    if (event.button == 2) {
+        alert(status);
+        return false;
+    }
+}
+
+$(document).bind("contextmenu", function (e) {
+    e.preventDefault();
+
+});
