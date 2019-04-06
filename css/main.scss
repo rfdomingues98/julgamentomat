@@ -13,7 +13,7 @@ p {
 
 $value: 1;
 
-@for $i from 1 through 23 {
+@for $i from 1 through 16 {
     p:nth-of-type(#{$i}) {
         top: #{random(90)}vh;
         left: #{random(90)}vw;
@@ -21,7 +21,7 @@ $value: 1;
         animation-delay: #{$value}s;
     }
 
-    $value: $value+random(2);
+    $value: $value+random(3);
 }
 
 @keyframes blink {
