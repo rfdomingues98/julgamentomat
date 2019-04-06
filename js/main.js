@@ -61,8 +61,3 @@ function disableclick(event) {
         return false;
     }
 }
-
-$(document).bind("contextmenu", function (e) {
-    e.preventDefault();
-
-});
