@@ -14,10 +14,14 @@ audio.addEventListener("ended", function () {
     //rot47
     var coordinates = "40.6286, -8.6598";
     var x = prompt('"F2= 6 2 D6BF6?4:2 56 ?F>6C@Dn W4252 6=6>6?E@ D6A2C25@ A@C 6DA24@DX');
-    do {
-        alert("Invalid answer!");
-        x = prompt('"F2= 6 2 D6BF6?4:2 56 ?F>6C@Dn W4252 6=6>6?E@ D6A2C25@ A@C 6DA24@DX');
-    } while (binary2text(x) != coordinates);
+    if (binary2text(x) == coordinates) {
+        alert("Success!");
+    } else {
+        do {
+            alert("Invalid answer!");
+            x = prompt('"F2= 6 2 D6BF6?4:2 56 ?F>6C@Dn W4252 6=6>6?E@ D6A2C25@ A@C 6DA24@DX');
+        } while (binary2text(x) != coordinates);
+    }
     alert("Success!");
 });
 
