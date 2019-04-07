@@ -17,7 +17,7 @@ $value: 1;
     p:nth-of-type(#{$i}) {
         top: #{random(85)}vh;
         left: #{random(90)}vw;
-        animation: blink .5s linear;
+        animation: blink 1s linear;
         animation-delay: #{$value}s;
     }
 
